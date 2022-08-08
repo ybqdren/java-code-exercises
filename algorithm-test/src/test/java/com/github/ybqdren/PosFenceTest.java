@@ -4,6 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import java.time.LocalDateTime;
 import java.time.ZoneOffset;
+import java.util.Collections;
 import java.util.Map;
 
 /**
@@ -49,6 +50,7 @@ public class PosFenceTest {
         // 权重 位置信息
         // 建立一个索引：索引的key是权重，权重= sum(当前节点权重)
         // 找出权重综合最高的区域，并在这个区域寻找中心点
+
 
 
     }
